@@ -1,17 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T14:42:26.244Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="CAkgXxlZbR2TVburzS92" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T15:58:09.037Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="XsgdVmg2D_aBaomt72pi" version="23.0.2" type="github">
   <diagram name="Page-1" id="CjTsorwQ7Oubx6sfexok">
-    <mxGraphModel dx="2100" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UAUrJxPtAOVDgm13h5xw-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="330" y="90" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="UAUrJxPtAOVDgm13h5xw-2" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="250" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="UAUrJxPtAOVDgm13h5xw-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="390" width="80" height="80" as="geometry" />
+        <mxCell id="UAUrJxPtAOVDgm13h5xw-15" value="&lt;pre id=&quot;yui_3_17_2_1_1706542398417_36&quot;&gt;public static int&lt;span&gt;[] insertion(&lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt;[] vecteur) &lt;/span&gt;&lt;span&gt;{ &lt;br&gt;&lt;/span&gt;&lt;span&gt;     for &lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;int &lt;/span&gt;&lt;span&gt;i = 1; i &lt;/span&gt;&lt;span&gt;&amp;lt; &lt;/span&gt;&lt;span&gt;vecteur.length; i++) &lt;/span&gt;&lt;span&gt;{ &lt;br&gt;&lt;/span&gt;        int j=0;&lt;br&gt;        while (j &amp;lt; i &amp;amp;&amp;amp; vecteur[j] &amp;lt; vecteur[i] ) { &lt;br&gt;            j++; &lt;br&gt;        } &lt;br&gt;        int swap = vecteur[i];&lt;br&gt;        for (int k = i; k &amp;gt; j; k−−) { &lt;br&gt;            vecteur [k] = vecteur [k−1]; &lt;br&gt;        } &lt;br&gt;        vecteur[j] = swap; &lt;br&gt;    } &lt;br&gt;    return( vecteur ) ; &lt;br&gt;} &lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="440" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
